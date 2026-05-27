@@ -1,0 +1,110 @@
+[
+  {
+    "id": "pacman",
+    "title": "Google Pac-Man",
+    "description": "Relive the classic arcade sensation with the official Google Pac-Man Doodle. Navigate the maze, gobble up pellets, and avoid the colorful ghosts: Blinky, Pinky, Inky, and Clyde!",
+    "iframeUrl": "https://macek.github.io/google_pacman/",
+    "category": "Retro",
+    "rating": 4.9,
+    "controls": "Arrow keys to navigate Pac-man around the maze. Eat power pellets to make ghosts vulnerable.",
+    "developer": "Bandai Namco / Google",
+    "accentColor": "from-yellow-500 to-amber-700",
+    "iconName": "Gamepad2"
+  },
+  {
+    "id": "game-2048",
+    "title": "2048 Classic",
+    "description": "Join the numbers and get to the 2048 tile! Slide numbered tiles on a grid to combine them and create a tile with the number 2048. It starts simple but requires strategic planning as the board fills up.",
+    "iframeUrl": "https://gabrielecirulli.github.io/2048/",
+    "category": "Puzzle",
+    "rating": 4.8,
+    "controls": "Use Arrow keys or swipe on touch screens to slide all tiles in that direction. Matching tiles merge.",
+    "developer": "Gabriele Cirulli",
+    "accentColor": "from-orange-400 to-yellow-600",
+    "iconName": "Grid"
+  },
+  {
+    "id": "hextris",
+    "title": "Hextris Block",
+    "description": "A fast-paced puzzle game inspired by Tetris. Rotate the hexagon on the screen, match 3 or more blocks of the same color to clear them, and prevent the blocks from piling outside the outer grey hexagon!",
+    "iframeUrl": "https://hextris.github.io/hextris/",
+    "category": "Arcade",
+    "rating": 4.7,
+    "controls": "Left and Right Arrow keys or A/D keys to rotate the central hexagon. Match color lines of 3+ blocks.",
+    "developer": "Hextris Team",
+    "accentColor": "from-indigo-500 to-violet-700",
+    "iconName": "Layers"
+  },
+  {
+    "id": "snake",
+    "title": "Classic Retro Snake",
+    "description": "The definitive retro arcade game. Guide the hungry snake around the container, devour the glowing apples, and watch your body grow longer. Do not crash into the walls or your own tail!",
+    "iframeUrl": "https://gandier.github.io/snake/",
+    "category": "Retro",
+    "rating": 4.6,
+    "controls": "Use Arrow keys (Up, Down, Left, Right) or WASD to guide the snake. Eat food and avoid crashing.",
+    "developer": "Nokia Classic",
+    "accentColor": "from-green-500 to-emerald-700",
+    "iconName": "Activity"
+  },
+  {
+    "id": "flappybird",
+    "title": "Floppy Bird",
+    "description": "Flap your tiny wings and navigate through rows of green pipes. Timing is everything in this brutal, retro arcade recreation. How high of a score can you reach before crashing?",
+    "iframeUrl": "https://nebez.github.io/floppybird/",
+    "category": "Arcade",
+    "rating": 4.5,
+    "controls": "Press Spacebar, Up Arrow, or click the mouse to flap wings. Keep the bird airborne and avoid pipes.",
+    "developer": "Nebez / Dong Nguyen",
+    "accentColor": "from-cyan-400 to-blue-600",
+    "iconName": "Wind"
+  },
+  {
+    "id": "minesweeper",
+    "title": "Unblocked Minesweeper",
+    "description": "A timeless logic game of deduction and memory. Uncover the columns without detonating hidden mines. Use numerical hints on safe blocks to flag all adjacent threat squares.",
+    "iframeUrl": "https://1000101.github.io/Minesweeper/",
+    "category": "Puzzle",
+    "rating": 4.5,
+    "controls": "Left Click to uncover a square. Right Click to place a warning flag. Middle Click to clear surroundings.",
+    "developer": "Microsoft Games",
+    "accentColor": "from-slate-500 to-zinc-700",
+    "iconName": "ShieldAlert"
+  },
+  {
+    "id": "adarkroom",
+    "title": "A Dark Room",
+    "description": "A highly acclaimed, immersive text-based unblocked RPG and adventure game. It starts in a cold, silent room with a dim fire. Stoke the fire, explore the wilderness, and reveal a deep sci-fi story.",
+    "iframeUrl": "https://adarkroom.doublespeakgames.com/",
+    "category": "Adventure",
+    "rating": 4.9,
+    "controls": "Use your Mouse to click buttons, manage logs, collect fiber, trade with foreigners, and explore.",
+    "developer": "DoubleSpeak Games",
+    "accentColor": "from-red-600 to-rose-950",
+    "iconName": "Compass"
+  },
+  {
+    "id": "gridland",
+    "title": "Gridland Matcher",
+    "description": "An ingenious, double-sided match-3 puzzle game with a day and night cycle. Match blocks by day to gather building resources, and match them by night to defend against invading skeleton hordes!",
+    "iframeUrl": "https://gridland.doublespeakgames.com/",
+    "category": "Strategy",
+    "rating": 4.8,
+    "controls": "Click and drag tiles horizontally or vertically to swap adjacent blocks. Survive the dangerous night.",
+    "developer": "DoubleSpeak Games",
+    "accentColor": "from-purple-600 to-pink-800",
+    "iconName": "FlameKindling"
+  },
+  {
+    "id": "towr",
+    "title": "Tower Blocks 3D",
+    "description": "Test your reflexes in this beautiful, minimalist 3D physics stacking challenge. Drop suspended floor panels precisely onto each other to build the tallest, most stable skyscraper possible.",
+    "iframeUrl": "https://clintbellanger.net/towr/",
+    "category": "Casual",
+    "rating": 4.4,
+    "controls": "Click or Tap anywhere on the game screen to release the swinging room block. Align perfectly for combo points.",
+    "developer": "Clint Bellanger",
+    "accentColor": "from-teal-400 to-cyan-700",
+    "iconName": "Building"
+  }
+]

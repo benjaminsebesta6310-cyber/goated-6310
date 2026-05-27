@@ -1,0 +1,6 @@
+{
+  "name": "Unblocked Arcade Hub",
+  "description": "An elegant, responsive unblocked games portal where you can browse popular retro games, play inside custom unblocked iframes, search, rate, favorite, and even add your own custom game links.",
+  "requestFramePermissions": ["camera", "microphone", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
