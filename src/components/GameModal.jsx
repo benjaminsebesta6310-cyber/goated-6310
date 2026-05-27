@@ -17,10 +17,9 @@ export default function GameModal({
   const [iframeKey, setIframeKey] = useState(0); // Key used to force-refresh standard iframe elements
   const containerRef = useRef(null);
 
-  if (!game) return null;
-
   // Listen to standard browser fullscreen transition events
   useEffect(() => {
+    if (!game) return;
     const handleFullscreenChange = () => {
       setIsFullscreen(document.fullscreenElement === containerRef.current);
     };
@@ -28,7 +27,9 @@ export default function GameModal({
     return () => {
       document.removeEventListener('fullscreenchange', handleFullscreenChange);
     };
-  }, []);
+  }, [game]);
+
+  if (!game) return null;
 
   const toggleFullscreen = async () => {
     if (!containerRef.current) return;
@@ -164,10 +165,9 @@ export default function GameModal({
                   src={game.iframeUrl}
                   title={`Unblocked game: ${game.title}`}
                   className="w-full h-full border-none select-none outline-none overflow-hidden"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; gamepad; pointer-lock"
                   allowFullScreen
-                  referrerPolicy="no-referrer"
-                  sandbox="allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+                  sandbox="allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-downloads allow-storage-access-by-user-activation"
                 />
 
                 {/* Ambient instructions block only visible in fullscreen */}
